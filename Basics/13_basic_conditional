@@ -1,5 +1,13 @@
-n=int(input("Enter a number :"))
-if (n%2==0):
-    print("The number is even number ")
-else:
-    print("The number is odd number ")
+while True:
+    n = int(input("Enter a number: "))
+
+    if n % 2 == 0:
+        print("The number is even number")
+    else:
+        print("The number is odd number")
+
+    cont = input("Do you want to enter another number? (yes/no): ")
+
+    if cont.lower() != "yes":
+        print("Exiting the program. Goodbye!")
+        break
