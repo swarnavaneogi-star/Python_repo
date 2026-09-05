@@ -3,4 +3,5 @@ def temperature(f):
     return c
 
 f=float(input("enter the temperature :"))
-print("The temperature in Celsius is: ", temperature(f))
+c=temperature(f)
+print("The temperature in Celsius is: ", round(c,2))
