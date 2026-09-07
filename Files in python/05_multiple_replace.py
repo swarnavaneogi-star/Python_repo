@@ -1,10 +1,14 @@
-words=["idiot","stupid","dumbass","fuck","bullshit","asshole","fucking","bastard"]
+words = ["idiot", "stupid", "dumbass", "fuck", "bullshit", "asshole", "fucking", "bastard"]
 
-with open("replace1.txt", "r") as f:
-    content=f.read()
+with open("paragraph.txt", "r") as f:
+    content = f.read()
 
-for word in words :
-    newContent=content.replace(word, "#"*len(word))
+newContent = content
+
+for word in words:
+    newContent = newContent.replace(word, "#" * len(word))
+
+print(newContent)
 
 with open("replace.txt", "w") as f:
     f.write(newContent)
