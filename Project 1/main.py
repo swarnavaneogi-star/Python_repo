@@ -1,3 +1,4 @@
+# a mini project of creating a game of Snake, Water and Gun
 import random 
 '''
 1: Snake
