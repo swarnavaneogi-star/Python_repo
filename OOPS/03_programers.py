@@ -23,8 +23,6 @@ class Programs:
 e1=Programs()
 e2=Programs()
 
-
-
 e1.input()
 e1.introduce()
 
